@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "run": "node index.js",
+    "run": "nodemon src/task-2019-02.js",
     "test": "npx jest"
   },
   "author": "",
