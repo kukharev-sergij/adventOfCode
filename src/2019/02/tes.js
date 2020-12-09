@@ -1,5 +1,5 @@
-const data = require('./task-2019-02.json');
-const {  } = require('./task-2019-02');
+const data = require('./mock');
+const {  } = require('./*');
 
 describe('2019', () => {
     test('02*', () => {

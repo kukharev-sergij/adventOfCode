@@ -1,4 +1,5 @@
-const fuel = (weight) => Math.max(Math.floor(weight / 3) - 2, 0);
+const fuel = require('./*');
+
 const fuels = function * (weight) {
     const f = fuel(weight);
     if (f > 0) {
@@ -7,7 +8,4 @@ const fuels = function * (weight) {
     }
 };
 
-module.exports = {
-    fuel,
-    fuels,
-};
+module.exports = fuels;
